@@ -1,0 +1,44 @@
+.nasimnaya_knopka {
+    margin: 10%;
+    text-align: center;
+  }
+  
+  .stylistics_knopkam {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 18px;
+    height: 62px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    text-shadow: 0 1px 0 #312c2c;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .stylistics_knopkam:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .stylistics_knopkam:focus {
+    outline: none;
+  }
+  
+  .stylistics_knopkam.maiden-1 {
+    background-image: linear-gradient(to right, #1a92c3, #2bd885, #1dce79, #27d07f);
+    box-shadow: 0 4px 15px 0 rgba(34, 189, 183, 0.75);
+  }
+  .stylistics_knopkam.maiden-2 {
+    background-image: linear-gradient(to right, #ecc24d, #e44010, #f3628c, #e45311);
+    box-shadow: 0 4px 15px 0 rgba(224, 79, 29, 0.75);
+  }

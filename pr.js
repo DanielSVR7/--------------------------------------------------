@@ -189,9 +189,6 @@ function welcome() {
     }
 }
 
-
-
-
 const questions = [
     {
     question: "Что означает HTML?",
@@ -288,3 +285,21 @@ const questions = [
         window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
     }
     
+
+    document.getElementById("showPopup").addEventListener("click", function() {
+        let userName = localStorage.getItem('userName');
+        if(!userName) {
+            welcome();
+        }
+        let options = { day: 'numeric', month: 'long', year: 'numeric' };
+        let currentDate = new Date().toLocaleDateString('ru-RU', options);
+        var popupContent = "<div>" + currentDate + "</div>";
+        popupContent += "<div>Добро пожаловать, " + userName + "!</div>";
+
+    document.getElementById("popupContent").innerHTML = popupContent;
+    document.getElementById("popup").style.display = "block";
+    });
+
+    document.getElementById("popup").addEventListener("click", function() {
+        document.getElementById("popup").style.display = "none";
+    });
