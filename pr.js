@@ -221,7 +221,7 @@ const questions = [
     },
     {
     question: "Какой будет результат 2+2+'2' в JavaScript?",
-    options: ["422", "6", "4"],
+    options: ["42", "6", "4"],
     answer: "42"
     },
     {
