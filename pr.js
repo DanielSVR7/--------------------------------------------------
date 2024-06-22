@@ -198,6 +198,7 @@ const questions = [
     options: ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"],
     answer: "Hyper Text Markup Language"
     },
+
     {
     question: "Какой метод используется для вывода данных в консоль в JavaScript?",
     options: ["log()", "print()", "console.log()"],
@@ -237,6 +238,11 @@ const questions = [
     question: "Что будет результатом 10 === '10' в JavaScript?",
     options: ["true", "false", "10"],
     answer: "false"
+    },
+    {
+        "question": "Что такое API?",
+        "options": ["Application Programming Interface", "Advanced Program Interface", "Automated Protocol Interaction"],
+        "answer": "Application Programming Interface"
     }
 ];
     
